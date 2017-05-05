@@ -2,8 +2,10 @@
 @import "vars.scss";
 
 /* Large Devices, Wide Screens */
-@media only screen and (max-width : 1200px) {
-
+@media only screen and (max-width : 1400px) {
+	.brends{
+		margin-top: 100px;
+	}
 }
 
 /* Medium Devices, Desktops */

@@ -1,12 +1,13 @@
 @import "bourbon";
 @import "vars.scss";
+@import "../libs/lightslider/dist/css/lightslider.min.css";
 
 body{
 	font-size: 16px;
 	min-width: 320px;
 	position: relative;
 	line-height: 1.6;
-	font-family: "RobotoRegular", sans-serif;
+	font-family: MuseoCyrl-100;
 	overflow-x: hidden;
 	background-color: #fff;
 }
@@ -32,8 +33,301 @@ button{
 	display: none;
 }
 
-.wrapper{
-	width: 960px;
+.inner{
+	max-width: 1230px;
 	margin: 0 auto;
-	overflow: hidden;
+}
+
+header{
+	background-color: #f6e5ce;
+	min-height: 70px;
+}
+
+.logo{
+	padding: 25px 0 0 0;
+	font-family: Museo-Sans-Cyrl-900;
+	a{
+		font-size: 30px;
+		color: #4c2425;
+		line-height: 30px;
+		text-transform: uppercase;
+		&:hover{
+			text-decoration: none;
+		}
+	}
+}
+.head-menu{
+	padding: 28px 0 0 0;
+	ul{
+		display: inline-block;
+		li{
+			float: left;
+			&:first-child{
+				a{
+					margin-left: 0;
+				}
+			}
+			&:last-child{
+				a{
+					margin-right: 0;
+				}
+			}
+			a{
+				font-family: Museo-Sans-Cyrl-900;
+				font-size:16px;
+				color: #000222;
+				text-transform: uppercase;
+				margin: 0 10px;
+				&:hover{
+					color: #e13151;
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+}
+
+.call-back{
+	padding-top: 16px;
+	font-family:Museosanscyrl500;
+	text-align: right;
+	p{
+		font-size:20px;
+		line-height: 20px;
+		display: inline-block;
+		position: relative;
+		&:after{
+			position: absolute;
+			left: -32px;
+			top: -6px;
+			content: '';
+			background-image: url("../img/phone.png");
+			background-repeat: no-repeat;
+			width: 20px;
+			height: 34px;
+		}
+	}
+	span{
+		font-size: 24px;
+	}
+	a{
+		text-align: right;
+		display: block;
+		font-size:18px;
+		line-height: 19px;
+		color: #e13151;
+		text-decoration: underline;
+		&:hover{
+			text-decoration: none;
+		}
+	}
+}
+
+.top-slide-form{
+  background-color: #f6e5ce;
+  position: relative;
+  .inner{
+    top: 0;
+    left: 50%;
+    width: 100%;
+    margin-left: -615px;
+    position: absolute;
+  }
+}
+
+.banner{
+  margin-top: 126px;
+  font-family:Museo-Sans-Cyrl-900;
+  h1{
+    font-size:48px;
+    text-transform: uppercase;
+    color: #e8cda7;
+    line-height: 65px;
+    margin: 0;
+  }
+  h2{
+    text-transform: uppercase;
+    line-height: 38px;
+    font-size:38px;
+    color: #fff;
+  }
+  ul{
+    margin-top: 13px;
+  }
+  li{
+    margin: 16px 0;
+    position: relative;
+    padding-left: 36px;
+    &:after{
+      position: absolute;
+      content: '';
+      left: 0px;
+      top: 10px;
+      background-image: url("../img/baner-l.png");
+      background-repeat: no-repeat;
+      width: 16px;
+      height: 11px;
+    }
+  }
+  p{
+    font-size: 20px;
+    font-family:Museosanscyrl500;
+    color: #e8cda7;
+  }
+}
+
+.brends{
+  margin-top: 175px;
+  ul{
+    max-width: 500px;
+    li{
+      float: left;
+      margin: 22px 10px;
+      &:nth-child(3n+1){
+        margin-left: 0;
+      }
+    }
+  }
+  a{
+    margin-left: 5px;
+    margin-top: 20px;
+    display: block;
+    color: #e13151;
+    font-size: 16px;
+    font-family:Museosanscyrl500;
+    text-transform: uppercase;
+  }
+}
+
+.right-top-forma{
+  text-align: right;
+  .forma{
+    margin-top: 125px;
+    background-color: #fff;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    max-width: 375px;
+    form{
+      text-align: center;
+      border-radius: 4px;
+      padding: 29px 31px;
+      color: #555555;
+      font-family:Museosanscyrl500;
+      h2{
+        font-size:34px;
+        line-height: 40px;
+        text-transform: uppercase;
+      }
+      p{
+        text-transform: uppercase;
+        font-size:26px;
+        line-height: 36px;
+        font-family:Museo-Sans-Cyrl-900;
+      }
+      h3{
+        font-family:Museo-Sans-Cyrl-900;
+        font-size:30px;
+        line-height: 30px;
+        color: #e13151;
+        text-transform: uppercase;
+        padding-bottom: 16px;
+      }
+      input{
+        width: 100%;
+        border: 1px solid #4c2425;
+        text-align: center;
+        font-size: 22px;
+        margin-top: 20px;
+        font-family:Museosanscyrl500;
+        @include placeholder{
+          font-size: 22px;
+          font-family:Museosanscyrl500;
+        }
+      }
+      button{
+        margin-top: 30px;
+        font-size: 22px;
+        font-family:Museo-Sans-Cyrl-900;
+        display: block;
+        background-color: #e13151;
+        color: #fff;
+        padding: 17.5px 0;
+        width: 100%;
+        &:hover{
+          background-color: darken(#e13151,10);
+        }
+      }
+    }
+    i{
+      font-size:18px;
+      font-family:Museosanscyrl500;
+      color: #7e4546;
+
+    }
+    .stock{
+      margin-top: -13px;
+      background-color: #4c2425;
+      width: 100%;
+      text-align: right;
+      color: #fff;
+      padding: 24px 33px 29px 0;
+      border-bottom: 1px solid #655a58;
+      background-image: url("../img/icon-stock.png");
+      background-position: 41px 16px;
+      background-repeat: no-repeat;
+      h3{
+        font-size: 22px;
+        line-height: 25px;
+        font-family:Museosanscyrl500;
+        text-transform: uppercase;
+      }
+      p{
+        line-height: 35px;
+        font-size:22px;
+        font-family:Museosanscyrl500;
+        text-transform: uppercase;
+        padding-right: 15px;
+      }
+      span{
+        color: #e13151;
+        font-size:30px;
+        font-family:Museo-Sans-Cyrl-900;
+      }
+    }
+  }
+}
+
+
+.slider-form{
+  #autoplay{
+    height: 840px;
+  }
+  .lSSlideOuter .lSGallery li, .lSSlideOuter .lightSlider>*{
+    img{
+      width: 100%;
+    }
+  }
+  .lSSlideOuter .lSPager.lSpg{
+    margin: 18px 0 20px 0 !important;
+  }
+  .lSSlideOuter .lSPager.lSpg>li a{
+    background-color: #a89d8e;
+    width: 12px;
+    height: 12px;
+    display: block;
+    margin: 2.5px auto;
+  }
+  .lSSlideOuter .lSPager.lSpg>li{
+    border: 1px solid transparent;
+    width: 20px;
+    height: 20px;
+    border-radius: 30px;
+    background-color: transparent;
+    padding: 0;
+    margin: 0 5px;
+  }
+  .lSSlideOuter .lSPager.lSpg>li.active{
+    border: 1px solid #a89d8e;
+  }
 }

@@ -113,3 +113,24 @@ $(function() {
 		return false;
 	})
 });
+
+
+
+
+
+
+$(document).ready(function() {
+	var autoplaySlider = $('#autoplay').lightSlider({
+		auto:true,
+		loop:true,
+		item:1,
+		controls:false,
+		slideMargin:0,
+		speed:1000,
+		pauseOnHover: true,
+		onBeforeSlide: function (el) {
+			$('#current').text(el.getCurrentSlideCount());
+		}
+	});
+	$('#total').text(autoplaySlider.getTotalSlideCount());
+});

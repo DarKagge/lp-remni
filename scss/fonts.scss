@@ -1,3 +1,6 @@
 @import "bourbon";
 
-@include font-face("RobotoRegular", "../fonts/RobotoRegular/RobotoRegular", $file-formats: eot woff ttf);
+@include font-face("Museo-Sans-Cyrl-900", "../fonts/Museo Sans Cyrl 900/Museo Sans Cyrl 900", $file-formats: eot woff ttf);
+@include font-face("MuseoCyrl-100", "../fonts/MuseoCyrl-100/MuseoCyrl-100", $file-formats: eot woff ttf);
+@include font-face("MuseoCyrl-100Italic", "../fonts/MuseoCyrl-100Italic/MuseoCyrl-100Italic", $file-formats: eot woff ttf);
+@include font-face("Museosanscyrl500", "../fonts/Museosanscyrl500/Museosanscyrl500", $file-formats: eot woff ttf);
