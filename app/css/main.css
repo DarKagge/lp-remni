@@ -497,7 +497,9 @@ body textarea:required:valid {
     .all-reviews ul li .otz-text {
       float: left;
       width: 350px;
-      padding: 26px 20px; }
+      height: 250px;
+      padding: 26px 17px 26px 20px;
+      overflow: auto; }
       .all-reviews ul li .otz-text h3 {
         color: #000222;
         font-size: 20px;
@@ -569,6 +571,43 @@ footer {
     display: inline-block;
     padding-top: 0;
     margin-left: -200px; }
+
+.mCS-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+  background-color: #d0c2b0;
+  width: 5px;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+  height: 47px; }
+
+.mCS-dark.mCSB_scrollTools .mCSB_draggerRail {
+  background-color: #fff; }
+
+.mCSB_scrollTools .mCSB_draggerRail {
+  width: 3px; }
+
+.arrows-slider {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 0; }
+  .arrows-slider a {
+    width: 50px;
+    height: 50px;
+    background-color: #e13151;
+    display: inline-block;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center; }
+  .arrows-slider .left-arrow {
+    display: inline-block; }
+    .arrows-slider .left-arrow a {
+      background-image: url("../img/left-arrow.png");
+      left: -20px; }
+  .arrows-slider .right-arrow {
+    display: inline-block; }
+    .arrows-slider .right-arrow a {
+      background-image: url("../img/right-arrow.png");
+      right: -20px; }
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1400px) {

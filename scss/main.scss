@@ -621,7 +621,9 @@ body textarea:required:valid{
       .otz-text{
         float: left;
         width: 350px;
-        padding: 26px 20px;
+        height: 250px;
+        padding: 26px 17px 26px 20px;
+        overflow: auto;
         h3{
           color: #000222;
           font-size: 20px;
@@ -711,6 +713,60 @@ footer{
     display: inline-block;
     padding-top: 0;
     margin-left: -200px;
+  }
+}
+
+
+
+.mCS-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{
+  background-color: #d0c2b0;
+  width: 5px;
+  border-radius: 30px;
+  height: 47px;
+}
+
+.mCS-dark.mCSB_scrollTools .mCSB_draggerRail{
+  background-color: #fff;
+}
+.mCSB_scrollTools .mCSB_draggerRail{
+  width: 3px;
+}
+
+
+
+
+.arrows-slider{
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  a{
+    width: 50px;
+    height: 50px;
+    background-color: #e13151;
+    display: inline-block;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .left-arrow{
+    display: inline-block;
+    a{
+      background-image: url("../img/left-arrow.png");
+      left: -20px;
+      &:hover{
+
+      }
+    }
+  }
+  .right-arrow{
+    display: inline-block;
+    a{
+      background-image: url("../img/right-arrow.png");
+      right: -20px;
+      &:hover{
+      }
+    }
   }
 }
 
