@@ -36,7 +36,8 @@ body textarea:required:valid {
     font-size: 36px;
     font-family: Museosanscyrl500;
     color: #4c2425;
-    line-height: 36px; }
+    line-height: 36px;
+    text-transform: uppercase; }
   .all-title b {
     font-family: Museo-Sans-Cyrl-900; }
 
@@ -331,6 +332,243 @@ body textarea:required:valid {
       color: #555555;
       line-height: 30px;
       padding: 23px 20px 0 20px; }
+
+.service {
+  background-image: url("../img/uzor-bg3.jpg");
+  background-position: center;
+  background-size: cover;
+  border-top: 1px dashed #4c2425;
+  padding: 70px 0;
+  text-align: center; }
+  .service ul {
+    display: inline-block;
+    margin-top: 62px; }
+    .service ul li {
+      float: left;
+      text-align: center;
+      padding: 0 60px; }
+      .service ul li:first-child {
+        border-right: 2px dashed rgba(76, 36, 37, 0.3); }
+      .service ul li .img-service {
+        margin-right: 20px;
+        float: left;
+        padding-top: 15px; }
+      .service ul li h3 {
+        text-transform: uppercase;
+        font-size: 20px;
+        font-family: Museo-Sans-Cyrl-900; }
+      .service ul li p {
+        font-size: 18px;
+        font-family: Museosanscyrl500;
+        padding-top: 25px;
+        line-height: 22px; }
+      .service ul li .text-service {
+        float: left;
+        color: #000222;
+        max-width: 280px; }
+  .service .all-title h2 {
+    font-family: Museo-Sans-Cyrl-900;
+    text-transform: uppercase; }
+
+.discount {
+  background-image: url("../img/coja.jpg");
+  background-repeat: repeat; }
+  .discount .all-title {
+    padding: 70px 0; }
+    .discount .all-title h2 {
+      color: #f6e5ce; }
+    .discount .all-title span {
+      color: #e13151;
+      font-family: Museo-Sans-Cyrl-900; }
+  .discount .forma {
+    margin-top: 0; }
+
+.forma-for-dicsount {
+  padding: 90px; }
+  .forma-for-dicsount .forma {
+    max-width: inherit;
+    width: 50%;
+    display: block;
+    float: left;
+    background-image: url("../img/bg-form-b.png");
+    background-color: #f6e5ce; }
+    .forma-for-dicsount .forma .stock {
+      background-color: #e8d2b5;
+      margin-top: 0;
+      text-align: center;
+      padding-right: 0;
+      padding-left: 100px;
+      background-position: 100px center;
+      color: #4c2425; }
+      .forma-for-dicsount .forma .stock span {
+        color: #4c2425; }
+    .forma-for-dicsount .forma form {
+      padding: 24px 90px; }
+    .forma-for-dicsount .forma input {
+      background-color: #f3ddbf;
+      color: #4c2425;
+      padding: 7.5px 0; }
+      .forma-for-dicsount .forma input::-webkit-input-placeholder {
+        color: #4c2425; }
+      .forma-for-dicsount .forma input::-moz-placeholder {
+        color: #4c2425; }
+      .forma-for-dicsount .forma input:-moz-placeholder {
+        color: #4c2425; }
+      .forma-for-dicsount .forma input:-ms-input-placeholder {
+        color: #4c2425; }
+  .forma-for-dicsount .img-discount {
+    width: 50%;
+    float: left; }
+    .forma-for-dicsount .img-discount img {
+      max-height: 479px;
+      width: 100%; }
+  .forma-for-dicsount .red-line-k {
+    width: 100%;
+    float: left; }
+    .forma-for-dicsount .red-line-k ul li {
+      text-align: left;
+      float: left;
+      width: 33.3333%;
+      background-color: #7e4546; }
+      .forma-for-dicsount .red-line-k ul li * {
+        display: inline-block;
+        vertical-align: middle; }
+      .forma-for-dicsount .red-line-k ul li .img-red-line {
+        width: 70px;
+        background-color: #733c3d;
+        height: 100px;
+        padding-top: 10%;
+        text-align: center; }
+      .forma-for-dicsount .red-line-k ul li p {
+        color: #fff;
+        font-size: 22px;
+        line-height: 25px;
+        padding-left: 16px;
+        font-family: Museosanscyrl500; }
+
+.garant {
+  padding: 70px 0; }
+
+.g-item {
+  text-align: center; }
+  .g-item .img-garant {
+    text-align: center; }
+  .g-item ul {
+    display: inline-block; }
+    .g-item ul li {
+      float: left;
+      margin: 50px 30px 0 30px; }
+      .g-item ul li h2 {
+        color: #000222;
+        font-size: 20px;
+        margin-top: 26px;
+        text-transform: uppercase;
+        font-family: Museo-Sans-Cyrl-900; }
+      .g-item ul li p {
+        padding-top: 25px;
+        font-size: 18px;
+        color: #555555;
+        line-height: 23px; }
+
+.reviews {
+  background-image: url("../img/uzor-bg4.png");
+  padding: 70px 0; }
+
+.slider-reviews {
+  margin-top: 35px; }
+
+.all-reviews {
+  padding: 0 40px; }
+  .all-reviews ul li {
+    max-width: 520px;
+    background-color: #f6e5ce;
+    height: 250px;
+    float: left;
+    margin: 25px 30px; }
+    .all-reviews ul li:nth-child(2n) {
+      margin-right: 0; }
+    .all-reviews ul li:nth-child(2n+1) {
+      margin-left: 0; }
+    .all-reviews ul li .foto-client {
+      float: left;
+      max-width: 170px; }
+      .all-reviews ul li .foto-client img {
+        width: 100%; }
+    .all-reviews ul li .otz-text {
+      float: left;
+      width: 350px;
+      padding: 26px 20px; }
+      .all-reviews ul li .otz-text h3 {
+        color: #000222;
+        font-size: 20px;
+        font-family: Museo-Sans-Cyrl-900; }
+      .all-reviews ul li .otz-text p {
+        font-size: 18px;
+        color: #555555;
+        line-height: 23px; }
+
+.forma-x {
+  background-image: url("../img/uzor-bg.jpg");
+  padding: 70px 0 60px 0;
+  background-size: cover;
+  text-align: center; }
+  .forma-x h2 {
+    color: #f6e5ce;
+    font-size: 30px;
+    font-family: Museo-Sans-Cyrl-900; }
+  .forma-x form {
+    margin-top: 30px; }
+    .forma-x form * {
+      max-width: 322px;
+      width: 100%;
+      height: 52px;
+      margin: 0 15px; }
+  .forma-x input {
+    background-color: transparent;
+    border: 1px solid #f6e5ce;
+    color: #f6e5ce;
+    font-size: 22px;
+    text-align: center; }
+    .forma-x input::-webkit-input-placeholder {
+      color: #f6e5ce; }
+    .forma-x input::-moz-placeholder {
+      color: #f6e5ce; }
+    .forma-x input:-moz-placeholder {
+      color: #f6e5ce; }
+    .forma-x input:-ms-input-placeholder {
+      color: #f6e5ce; }
+    .forma-x input:valid {
+      color: #f6e5ce !important; }
+  .forma-x button {
+    background-color: #e13151;
+    font-size: 22px;
+    font-family: Museo-Sans-Cyrl-900;
+    color: #f6e5ce; }
+    .forma-x button:hover {
+      background-color: #c31c3b; }
+
+.map img {
+  width: 100%; }
+
+footer {
+  text-align: center;
+  padding: 50px 0;
+  background-image: url("../img/remen.jpg");
+  background-position: right center;
+  background-repeat: no-repeat; }
+  footer .inner {
+    display: block; }
+  footer .lic {
+    text-align: left;
+    float: left; }
+    footer .lic * {
+      color: #000222;
+      font-size: 18px;
+      display: block; }
+  footer .call-back {
+    display: inline-block;
+    padding-top: 0;
+    margin-left: -200px; }
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1400px) {

@@ -7,7 +7,7 @@ body{
 	min-width: 320px;
 	position: relative;
 	line-height: 1.6;
-	font-family: MuseoCyrl-100;
+	font-family: Museosanscyrl500;
 	overflow-x: hidden;
 	background-color: #fff;
 }
@@ -201,99 +201,99 @@ header{
 
 .right-top-forma{
   text-align: right;
-  .forma{
-    margin-top: 125px;
-    background-color: #fff;
-    display: inline-block;
+}
+.forma{
+  margin-top: 125px;
+  background-color: #fff;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  max-width: 375px;
+  form{
     text-align: center;
-    position: relative;
-    max-width: 375px;
-    form{
-      text-align: center;
-      border-radius: 4px;
-      padding: 29px 31px;
-      color: #555555;
-      font-family:Museosanscyrl500;
-      h2{
-        font-size:34px;
-        line-height: 40px;
-        text-transform: uppercase;
-      }
-      p{
-        text-transform: uppercase;
-        font-size:26px;
-        line-height: 36px;
-        font-family:Museo-Sans-Cyrl-900;
-      }
-      h3{
-        font-family:Museo-Sans-Cyrl-900;
-        font-size:30px;
-        line-height: 30px;
-        color: #e13151;
-        text-transform: uppercase;
-        padding-bottom: 16px;
-      }
-      input{
-        width: 100%;
-        border: 1px solid #4c2425;
-        text-align: center;
-        font-size: 22px;
-        margin-top: 20px;
-        font-family:Museosanscyrl500;
-        @include placeholder{
-          font-size: 22px;
-          font-family:Museosanscyrl500;
-        }
-      }
-      button{
-        margin-top: 30px;
-        font-size: 22px;
-        font-family:Museo-Sans-Cyrl-900;
-        display: block;
-        background-color: #e13151;
-        color: #fff;
-        padding: 17.5px 0;
-        width: 100%;
-        &:hover{
-          background-color: darken(#e13151,10);
-        }
-      }
+    border-radius: 4px;
+    padding: 29px 31px;
+    color: #555555;
+    font-family:Museosanscyrl500;
+    h2{
+      font-size:34px;
+      line-height: 40px;
+      text-transform: uppercase;
     }
-    i{
-      font-size:18px;
-      font-family:Museosanscyrl500;
-      color: #7e4546;
-
+    p{
+      text-transform: uppercase;
+      font-size:26px;
+      line-height: 36px;
+      font-family:Museo-Sans-Cyrl-900;
     }
-    .stock{
-      margin-top: -13px;
-      background-color: #4c2425;
+    h3{
+      font-family:Museo-Sans-Cyrl-900;
+      font-size:30px;
+      line-height: 30px;
+      color: #e13151;
+      text-transform: uppercase;
+      padding-bottom: 16px;
+    }
+    input{
       width: 100%;
-      text-align: right;
-      color: #fff;
-      padding: 24px 33px 29px 0;
-      border-bottom: 1px solid #655a58;
-      background-image: url("../img/icon-stock.png");
-      background-position: 41px 16px;
-      background-repeat: no-repeat;
-      h3{
+      border: 1px solid #4c2425;
+      text-align: center;
+      font-size: 22px;
+      margin-top: 20px;
+      font-family:Museosanscyrl500;
+      @include placeholder{
         font-size: 22px;
-        line-height: 25px;
         font-family:Museosanscyrl500;
-        text-transform: uppercase;
       }
-      p{
-        line-height: 35px;
-        font-size:22px;
-        font-family:Museosanscyrl500;
-        text-transform: uppercase;
-        padding-right: 15px;
+    }
+    button{
+      margin-top: 30px;
+      font-size: 22px;
+      font-family:Museo-Sans-Cyrl-900;
+      display: block;
+      background-color: #e13151;
+      color: #fff;
+      padding: 17.5px 0;
+      width: 100%;
+      &:hover{
+        background-color: darken(#e13151,10);
       }
-      span{
-        color: #e13151;
-        font-size:30px;
-        font-family:Museo-Sans-Cyrl-900;
-      }
+    }
+  }
+  i{
+    font-size:18px;
+    font-family:Museosanscyrl500;
+    color: #7e4546;
+
+  }
+  .stock{
+    margin-top: -13px;
+    background-color: #4c2425;
+    width: 100%;
+    text-align: right;
+    color: #fff;
+    padding: 24px 33px 29px 0;
+    border-bottom: 1px solid #655a58;
+    background-image: url("../img/icon-stock.png");
+    background-position: 41px 16px;
+    background-repeat: no-repeat;
+    h3{
+      font-size: 22px;
+      line-height: 25px;
+      font-family:Museosanscyrl500;
+      text-transform: uppercase;
+    }
+    p{
+      line-height: 35px;
+      font-size:22px;
+      font-family:Museosanscyrl500;
+      text-transform: uppercase;
+      padding-right: 15px;
+    }
+    span{
+      color: #e13151;
+      font-size:30px;
+      font-family:Museo-Sans-Cyrl-900;
     }
   }
 }

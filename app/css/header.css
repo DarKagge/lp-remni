@@ -4,7 +4,7 @@ body {
   min-width: 320px;
   position: relative;
   line-height: 1.6;
-  font-family: MuseoCyrl-100;
+  font-family: Museosanscyrl500;
   overflow-x: hidden;
   background-color: #fff; }
 
@@ -157,96 +157,97 @@ header {
 
 .right-top-forma {
   text-align: right; }
-  .right-top-forma .forma {
-    margin-top: 125px;
-    background-color: #fff;
-    display: inline-block;
+
+.forma {
+  margin-top: 125px;
+  background-color: #fff;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  max-width: 375px; }
+  .forma form {
     text-align: center;
-    position: relative;
-    max-width: 375px; }
-    .right-top-forma .forma form {
-      text-align: center;
-      -webkit-border-radius: 4px;
-      border-radius: 4px;
-      padding: 29px 31px;
-      color: #555555;
-      font-family: Museosanscyrl500; }
-      .right-top-forma .forma form h2 {
-        font-size: 34px;
-        line-height: 40px;
-        text-transform: uppercase; }
-      .right-top-forma .forma form p {
-        text-transform: uppercase;
-        font-size: 26px;
-        line-height: 36px;
-        font-family: Museo-Sans-Cyrl-900; }
-      .right-top-forma .forma form h3 {
-        font-family: Museo-Sans-Cyrl-900;
-        font-size: 30px;
-        line-height: 30px;
-        color: #e13151;
-        text-transform: uppercase;
-        padding-bottom: 16px; }
-      .right-top-forma .forma form input {
-        width: 100%;
-        border: 1px solid #4c2425;
-        text-align: center;
-        font-size: 22px;
-        margin-top: 20px;
-        font-family: Museosanscyrl500; }
-        .right-top-forma .forma form input::-webkit-input-placeholder {
-          font-size: 22px;
-          font-family: Museosanscyrl500; }
-        .right-top-forma .forma form input::-moz-placeholder {
-          font-size: 22px;
-          font-family: Museosanscyrl500; }
-        .right-top-forma .forma form input:-moz-placeholder {
-          font-size: 22px;
-          font-family: Museosanscyrl500; }
-        .right-top-forma .forma form input:-ms-input-placeholder {
-          font-size: 22px;
-          font-family: Museosanscyrl500; }
-      .right-top-forma .forma form button {
-        margin-top: 30px;
-        font-size: 22px;
-        font-family: Museo-Sans-Cyrl-900;
-        display: block;
-        background-color: #e13151;
-        color: #fff;
-        padding: 17.5px 0;
-        width: 100%; }
-        .right-top-forma .forma form button:hover {
-          background-color: #c31c3b; }
-    .right-top-forma .forma i {
-      font-size: 18px;
-      font-family: Museosanscyrl500;
-      color: #7e4546; }
-    .right-top-forma .forma .stock {
-      margin-top: -13px;
-      background-color: #4c2425;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    padding: 29px 31px;
+    color: #555555;
+    font-family: Museosanscyrl500; }
+    .forma form h2 {
+      font-size: 34px;
+      line-height: 40px;
+      text-transform: uppercase; }
+    .forma form p {
+      text-transform: uppercase;
+      font-size: 26px;
+      line-height: 36px;
+      font-family: Museo-Sans-Cyrl-900; }
+    .forma form h3 {
+      font-family: Museo-Sans-Cyrl-900;
+      font-size: 30px;
+      line-height: 30px;
+      color: #e13151;
+      text-transform: uppercase;
+      padding-bottom: 16px; }
+    .forma form input {
       width: 100%;
-      text-align: right;
+      border: 1px solid #4c2425;
+      text-align: center;
+      font-size: 22px;
+      margin-top: 20px;
+      font-family: Museosanscyrl500; }
+      .forma form input::-webkit-input-placeholder {
+        font-size: 22px;
+        font-family: Museosanscyrl500; }
+      .forma form input::-moz-placeholder {
+        font-size: 22px;
+        font-family: Museosanscyrl500; }
+      .forma form input:-moz-placeholder {
+        font-size: 22px;
+        font-family: Museosanscyrl500; }
+      .forma form input:-ms-input-placeholder {
+        font-size: 22px;
+        font-family: Museosanscyrl500; }
+    .forma form button {
+      margin-top: 30px;
+      font-size: 22px;
+      font-family: Museo-Sans-Cyrl-900;
+      display: block;
+      background-color: #e13151;
       color: #fff;
-      padding: 24px 33px 29px 0;
-      border-bottom: 1px solid #655a58;
-      background-image: url("../img/icon-stock.png");
-      background-position: 41px 16px;
-      background-repeat: no-repeat; }
-      .right-top-forma .forma .stock h3 {
-        font-size: 22px;
-        line-height: 25px;
-        font-family: Museosanscyrl500;
-        text-transform: uppercase; }
-      .right-top-forma .forma .stock p {
-        line-height: 35px;
-        font-size: 22px;
-        font-family: Museosanscyrl500;
-        text-transform: uppercase;
-        padding-right: 15px; }
-      .right-top-forma .forma .stock span {
-        color: #e13151;
-        font-size: 30px;
-        font-family: Museo-Sans-Cyrl-900; }
+      padding: 17.5px 0;
+      width: 100%; }
+      .forma form button:hover {
+        background-color: #c31c3b; }
+  .forma i {
+    font-size: 18px;
+    font-family: Museosanscyrl500;
+    color: #7e4546; }
+  .forma .stock {
+    margin-top: -13px;
+    background-color: #4c2425;
+    width: 100%;
+    text-align: right;
+    color: #fff;
+    padding: 24px 33px 29px 0;
+    border-bottom: 1px solid #655a58;
+    background-image: url("../img/icon-stock.png");
+    background-position: 41px 16px;
+    background-repeat: no-repeat; }
+    .forma .stock h3 {
+      font-size: 22px;
+      line-height: 25px;
+      font-family: Museosanscyrl500;
+      text-transform: uppercase; }
+    .forma .stock p {
+      line-height: 35px;
+      font-size: 22px;
+      font-family: Museosanscyrl500;
+      text-transform: uppercase;
+      padding-right: 15px; }
+    .forma .stock span {
+      color: #e13151;
+      font-size: 30px;
+      font-family: Museo-Sans-Cyrl-900; }
 
 .slider-form #autoplay {
   height: 840px; }

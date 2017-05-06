@@ -49,6 +49,7 @@ body textarea:required:valid{
         font-family:Museosanscyrl500;
         color: #4c2425;
         line-height: 36px;
+      text-transform: uppercase;
     }
     b{
         font-family:Museo-Sans-Cyrl-900;
@@ -414,6 +415,305 @@ body textarea:required:valid{
     }
   }
 }
+
+
+.service{
+  background-image: url("../img/uzor-bg3.jpg");
+  background-position: center;
+  background-size: cover;
+  border-top: 1px dashed #4c2425;
+  padding: 70px 0;
+  text-align: center;
+  ul{
+    display: inline-block;
+    margin-top: 62px;
+    li{
+      float: left;
+      text-align: center;
+      padding: 0 60px;
+      &:first-child{
+        border-right: 2px dashed rgba(76,36,37, 0.3);
+      }
+      .img-service{
+        margin-right: 20px;
+        float: left;
+        padding-top: 15px;
+      }
+      h3{
+        text-transform: uppercase;
+        font-size:20px;
+        font-family:Museo-Sans-Cyrl-900;
+      }
+      p{
+        font-size: 18px;
+        font-family:Museosanscyrl500;
+        padding-top: 25px;
+        line-height: 22px;
+      }
+      .text-service{
+        float: left;
+        color: #000222;
+        max-width: 280px;
+      }
+    }
+  }
+  .all-title{
+    h2{
+      font-family:Museo-Sans-Cyrl-900;
+      text-transform: uppercase;
+    }
+  }
+}
+.discount{
+  background-image: url("../img/coja.jpg");
+  background-repeat: repeat;
+  .all-title{
+    padding: 70px 0;
+    h2{
+      color: #f6e5ce;
+    }
+    span{
+      color: #e13151;
+      font-family:Museo-Sans-Cyrl-900;
+    }
+  }
+  .forma{
+    margin-top: 0;
+  }
+}
+
+.forma-for-dicsount{
+  padding:  90px;
+  .forma{
+    max-width: inherit;
+    width: 50%;
+    display: block;
+    float: left;
+    background-image: url("../img/bg-form-b.png");
+    background-color: #f6e5ce;
+    .stock{
+      background-color: #e8d2b5;
+      margin-top: 0;
+      text-align: center;
+      padding-right: 0;
+      padding-left: 100px;
+      background-position: 100px center;
+      color: #4c2425;
+      span{
+        color: #4c2425;
+      }
+    }
+    form{
+      padding: 24px 90px;
+    }
+    input{
+      background-color: #f3ddbf;
+      color: #4c2425;
+      padding: 7.5px 0;
+      @include placeholder{
+        color: #4c2425;
+      }
+    }
+  }
+  .img-discount{
+    width: 50%;
+    float: left;
+    img{
+      max-height: 479px;
+      width: 100%;
+    }
+  }
+  .red-line-k{
+    width: 100%;
+    float: left;
+    ul{
+      li{
+        text-align: left;
+        float: left;
+        width: 33.3333%;
+        background-color: #7e4546;
+        *{
+          display: inline-block;
+          vertical-align: middle;
+        }
+        .img-red-line{
+          width: 70px;
+          background-color: #733c3d;
+          height: 100px;
+          padding-top: 10%;
+          text-align: center;
+        }
+        p{
+          color: #fff;
+          font-size:22px;
+          line-height: 25px;
+          padding-left: 16px;
+          font-family:Museosanscyrl500;
+        }
+      }
+    }
+  }
+}
+
+
+.garant{
+  padding: 70px 0;
+}
+
+
+.g-item{
+  .img-garant{
+    text-align: center;
+  }
+  text-align: center;
+  ul{
+    display: inline-block;
+    li{
+      float: left;
+      margin: 50px 30px 0 30px;
+      h2{
+        color: #000222;
+        font-size: 20px;
+        margin-top: 26px;
+        text-transform: uppercase;
+        font-family:Museo-Sans-Cyrl-900;
+      }
+      p{
+        padding-top: 25px;
+        font-size:18px;
+        color: #555555;
+        line-height: 23px;
+      }
+    }
+  }
+}
+
+.reviews{
+  background-image: url("../img/uzor-bg4.png");
+  padding: 70px 0;
+}
+.slider-reviews{
+  margin-top: 35px;
+}
+
+.all-reviews{
+  padding: 0 40px;
+  ul{
+    li{
+      max-width: 520px;
+      background-color: #f6e5ce;
+      height: 250px;
+      float: left;
+      margin: 25px 30px;
+      &:nth-child(2n){
+        margin-right: 0;
+      }
+      &:nth-child(2n+1){
+        margin-left: 0;
+      }
+      .foto-client{
+        float: left;
+        max-width: 170px;
+        img{
+          width: 100%;
+        }
+      }
+      .otz-text{
+        float: left;
+        width: 350px;
+        padding: 26px 20px;
+        h3{
+          color: #000222;
+          font-size: 20px;
+          font-family:Museo-Sans-Cyrl-900;
+        }
+        p{
+          font-size: 18px;
+          color: #555555;
+          line-height: 23px;
+        }
+      }
+    }
+  }
+}
+
+
+
+.forma-x{
+  background-image: url("../img/uzor-bg.jpg");
+  padding: 70px 0 60px 0;
+  background-size: cover;
+  text-align: center;
+  h2{
+    color: #f6e5ce;
+    font-size:30px;
+    font-family:Museo-Sans-Cyrl-900;
+  }
+  form{
+    margin-top: 30px;
+    *{
+      max-width: 322px;
+      width: 100%;
+      height: 52px;
+      margin: 0 15px;
+    }
+  }
+  input{
+    background-color: transparent;
+    border: 1px solid #f6e5ce;
+    color: #f6e5ce;
+    font-size:22px;
+    text-align: center;
+    @include placeholder{
+      color: #f6e5ce;
+    }
+    &:valid{
+      color: #f6e5ce !important;
+    }
+  }
+  button{
+    background-color: #e13151;
+    font-size:22px;
+    font-family:Museo-Sans-Cyrl-900;
+    color: #f6e5ce;
+    &:hover{
+      background-color: darken(#e13151,10);
+    }
+  }
+}
+
+.map{
+  img{
+    width: 100%;
+  }
+}
+
+
+footer{
+  text-align: center;
+  padding: 50px 0;
+  background-image: url("../img/remen.jpg");
+  background-position: right center;
+  background-repeat: no-repeat;
+  .inner{
+    display: block;
+  }
+  .lic{
+    text-align: left;
+    float: left;
+    *{
+      color: #000222;
+      font-size: 18px;
+      display: block;
+    }
+  }
+  .call-back{
+    display: inline-block;
+    padding-top: 0;
+    margin-left: -200px;
+  }
+}
+
 //ALWAYS END
 @import "media.scss";
 @import "sketches.scss";
