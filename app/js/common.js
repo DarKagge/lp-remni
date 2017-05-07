@@ -149,6 +149,51 @@ $(function() {
 
 
 
+    var autoplaySlider = $('#reviews').lightSlider({
+        item:1,
+        controls:false,
+        slideMargin:0,
+        pager:false,
+        speed:1000,
+        pauseOnHover: true,
+        onBeforeSlide: function (el) {
+            $('#current').text(el.getCurrentSlideCount());
+        }
+    });
+    $('#total').text(autoplaySlider.getTotalSlideCount());
+
+    $(".left-arrow1 a").on("click",function (e) {
+        e.preventDefault();
+        autoplaySlider.goToPrevSlide();
+    });
+    $(".right-arrow1 a").on("click",function (e) {
+        e.preventDefault();
+        autoplaySlider.goToNextSlide();
+    });
 
 
 
+
+
+
+    $(".toggle_mnu").click(function() {
+        $(".sandwich").toggleClass("active");
+    });
+
+    $(".top_mnu ul a").click(function() {
+        $(".top_mnu").fadeOut(600);
+        $(".sandwich").toggleClass("active");
+        $(".top_text").css("opacity", "1");
+    }).append("<span>");
+
+    $(".toggle_mnu").click(function() {
+        if ($(".top_mnu").is(":visible")) {
+            $(".top_text").css("opacity", "1");
+            $(".top_mnu").fadeOut(600);
+            $(".top_mnu li a").removeClass("fadeInUp animated");
+        } else {
+            $(".top_text").css("opacity", ".1");
+            $(".top_mnu").fadeIn(600);
+            $(".top_mnu li a").addClass("fadeInUp animated");
+        }
+    });

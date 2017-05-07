@@ -292,7 +292,6 @@ body textarea:required:valid{
 .lupe{
     width: 46px;
     height: 34px;
-    transition: 1s all;
     border-right: 1px solid #e8e8e8;
     border-bottom: 2px solid #e8e8e8;
     border-top: 2px solid #e8e8e8;
@@ -760,6 +759,25 @@ footer{
     }
   }
   .right-arrow{
+    display: inline-block;
+    a{
+      background-image: url("../img/right-arrow.png");
+      right: -20px;
+      &:hover{
+      }
+    }
+  }
+  .left-arrow1{
+    display: inline-block;
+    a{
+      background-image: url("../img/left-arrow.png");
+      left: -20px;
+      &:hover{
+
+      }
+    }
+  }
+  .right-arrow1{
     display: inline-block;
     a{
       background-image: url("../img/right-arrow.png");
