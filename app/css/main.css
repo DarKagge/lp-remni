@@ -418,8 +418,9 @@ body textarea:required:valid {
     width: 50%;
     float: left; }
     .forma-for-dicsount .img-discount img {
-      max-height: 479px;
-      width: 100%; }
+      max-height: 480px;
+      width: 100%;
+      min-height: 480px; }
   .forma-for-dicsount .red-line-k {
     width: 100%;
     float: left; }
@@ -617,6 +618,12 @@ footer {
       background-image: url("../img/right-arrow.png");
       right: -20px; }
 
+.mobile-ver-sl {
+  display: none; }
+
+.belt {
+  display: none; }
+
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1400px) {
   .brends {
@@ -659,7 +666,55 @@ footer {
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 1229px) {
   header .call-back {
-    margin-left: -20px; } }
+    margin-left: -20px; }
+  footer {
+    background-position: 900px center; } }
+
+@media only screen and (max-width: 1222px) {
+  .next-brends
+ul li {
+    margin: 14.5px 10px; }
+    .next-brends
+ul li:nth-child(4n+1) {
+      margin-left: 10px; } }
+
+@media only screen and (max-width: 1213px) {
+  .working-offers ul li {
+    margin: 15px 17.5px; }
+    .working-offers ul li:nth-child(3n):after {
+      display: none; } }
+
+@media only screen and (max-width: 1211px) {
+  .all-brends {
+    padding: 0 58px; }
+  .next-brends
+ul li {
+    margin: 14.5px 3.5px; }
+    .next-brends
+ul li:nth-child(4n+1) {
+      margin-left: 10px; } }
+
+@media only screen and (max-width: 1208px) {
+  .all-first-item {
+    float: none;
+    display: block;
+    margin: 0 auto; }
+  .next-brends ul {
+    text-align: center; }
+    .next-brends ul li {
+      margin: 14.5px 10px;
+      float: none;
+      display: inline-block; }
+      .next-brends ul li:nth-child(4n) {
+        margin: 14.5px 10px; }
+      .next-brends ul li:nth-child(4n+1) {
+        margin: 14.5px 10px; }
+  footer {
+    background-position: 800px center; } }
+
+@media only screen and (max-width: 1202px) {
+  .forma-for-dicsount .red-line-k ul li p {
+    font-size: 1.5vw; } }
 
 @media only screen and (max-width: 1195px) {
   .top-slide-form .inner {
@@ -671,15 +726,28 @@ footer {
   .top-slide-form .forma {
     margin-top: 80px; } }
 
+@media only screen and (max-width: 1148px) {
+  .g-item ul li {
+    float: none;
+    display: inline-block; }
+  footer {
+    background-position: 700px center; } }
+
 @media only screen and (max-width: 1145px) {
   .head-menu {
     margin-left: -25px; } }
+
+@media only screen and (max-width: 1127px) {
+  .service ul li {
+    padding: 0 40px; } }
 
 @media only screen and (max-width: 1110px) {
   header .head-menu {
     margin-left: -55px; }
   header .call-back {
-    margin-left: -60px; } }
+    margin-left: -60px; }
+  .forma-x input {
+    margin: 15px; } }
 
 @media only screen and (max-width: 1070px) {
   header .head-menu {
@@ -691,12 +759,28 @@ footer {
   header .col-md-8 {
     position: inherit; } }
 
+@media only screen and (max-width: 1047px) {
+  .service ul li {
+    padding: 0 20px; }
+  .forma-for-dicsount .forma .stock {
+    background-position: 50px center; } }
+
 @media only screen and (max-width: 1000px) {
   .slider-form .lSSlideOuter .lSGallery li img img, .slider-form .lSSlideOuter .lightSlider > * img {
     width: 100%;
     min-height: 700px; }
   .slider-form #autoplay {
     height: 700px !important; } }
+
+@media only screen and (max-width: 967px) {
+  .service ul {
+    text-align: center; }
+    .service ul li {
+      float: none;
+      display: inline-block;
+      margin: 15px 0; }
+      .service ul li:first-child {
+        border-right: none; } }
 
 @media only screen and (max-width: 991px) {
   .logo {
@@ -710,13 +794,227 @@ footer {
   .sandwich.active .sw-topper {
     top: -50px; }
   .sandwich.active .sw-bottom {
-    top: -55px; } }
+    top: -55px; }
+  .why {
+    background-image: none; }
+  .right-why {
+    text-align: center; }
+  .right-why .right-items li:nth-child(2n) {
+    margin: 32px 15px; }
+  .forma-for-dicsount .forma form {
+    padding: 24px 30px; }
+  footer {
+    background-image: none;
+    text-align: center; }
+    footer .belt {
+      display: block; }
+    footer .lic {
+      display: inline-block;
+      text-align: center;
+      float: none; }
+    footer .call-back {
+      margin: 25px 0;
+      text-align: center;
+      display: block;
+      float: none; }
+      footer .call-back a {
+        text-align: center; } }
+
+@media only screen and (max-width: 945px) {
+  .forma-for-dicsount .red-line-k ul li {
+    width: 100%; }
+    .forma-for-dicsount .red-line-k ul li .img-red-line {
+      padding-top: 25px; }
+    .forma-for-dicsount .red-line-k ul li p {
+      font-size: 2vw; } }
+
+@media only screen and (max-width: 916px) {
+  .working-offers ul li:nth-child(3n):after {
+    display: block; }
+  .working-offers ul li:nth-child(2n):after {
+    display: none; } }
+
+@media only screen and (max-width: 880px) {
+  .forma-for-dicsount .forma {
+    width: 100%; }
+    .forma-for-dicsount .forma .stock {
+      background-position: 30% center; }
+  .forma-for-dicsount .img-discount {
+    width: 100%; } }
+
+@media only screen and (max-width: 861px) {
+  .brends {
+    margin-top: 25px; }
+    .brends a {
+      margin-top: 10px; } }
+
+@media only screen and (max-width: 850px) {
+  .banner h1 {
+    font-size: 5.5vw; }
+  .banner h2 {
+    font-size: 4vw; } }
+
+@media only screen and (max-width: 822px) {
+  .banner p {
+    font-size: 2.3vw; } }
 
 /* Small Devices, Tablets */
+@media only screen and (max-width: 767px) {
+  .mobile-ver-sl {
+    display: block; }
+    .mobile-ver-sl .top-sl-mobile {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      text-align: center; }
+      .mobile-ver-sl .top-sl-mobile .banner li {
+        padding-left: 0;
+        display: block; }
+        .mobile-ver-sl .top-sl-mobile .banner li p {
+          display: inline-block;
+          position: relative; }
+          .mobile-ver-sl .top-sl-mobile .banner li p:after {
+            left: -25px; }
+      .mobile-ver-sl .top-sl-mobile .brends {
+        text-align: center; }
+        .mobile-ver-sl .top-sl-mobile .brends ul {
+          display: inline-block; }
+          .mobile-ver-sl .top-sl-mobile .brends ul li {
+            float: none;
+            display: inline-block; }
+            .mobile-ver-sl .top-sl-mobile .brends ul li:nth-child(3n) {
+              margin: 22px 10px; }
+            .mobile-ver-sl .top-sl-mobile .brends ul li:nth-child(3n+1) {
+              margin: 22px 10px; }
+  .top-slide-form .inner {
+    display: none; }
+  .right-top-forma {
+    text-align: center; }
+  .forma-for-dicsount .red-line-k ul li p {
+    font-size: 3.5vw; } }
+
+@media only screen and (max-width: 679px) {
+  .right-why .right-items {
+    text-align: center; }
+    .right-why .right-items li {
+      float: none;
+      display: inline-block; } }
+
+@media only screen and (max-width: 649px) {
+  .all-reviews ul li .foto-client {
+    float: none;
+    max-width: inherit;
+    text-align: center; }
+    .all-reviews ul li .foto-client img {
+      height: 350px; }
+  .all-reviews ul li .otz-text {
+    float: none;
+    background-color: #f6e5ce; }
+  .slider-reviews .lSSlideOuter .lSPager, .slider-reviews .lSSlideOuter .lightSlider {
+    height: 100% !important; } }
+
+@media only screen and (max-width: 619px) {
+  .working-offers ul li:after {
+    display: none; }
+  .working-offers ul li:nth-child(3n):after {
+    display: none; }
+  .forma-for-dicsount .forma .stock {
+    background-image: none;
+    padding: 30px 0;
+    text-align: center; }
+    .forma-for-dicsount .forma .stock p {
+      padding: 0; }
+  .all-brends {
+    padding: 0; } }
+
+@media only screen and (max-width: 600px) {
+  .mobile-ver-sl .top-sl-mobile .banner li p {
+    font-size: 3.5vw; }
+  .banner h1 {
+    font-size: 6vw; }
+  .banner h2 {
+    font-size: 5vw; } }
+
+@media only screen and (max-width: 550px) {
+  .forma-for-dicsount {
+    padding: 25px; }
+  .forma-for-dicsount .forma .stock {
+    background-position: 10% center; }
+  .forma-for-dicsount .forma {
+    min-width: 300px; }
+  .forma-for-dicsount .red-line-k ul li p {
+    font-size: 3.3vw; } }
+
 /* Extra Small Devices, Phones */
-@media only screen and (max-width: 480px) {
-  .pad {
-    padding: 20px 5px !important; } }
+@media only screen and (max-width: 500px) {
+  .service ul li .img-service {
+    float: none;
+    text-align: center; }
+  footer .belt img {
+    width: 100%; } }
+
+@media only screen and (max-width: 470px) {
+  .all-items-for ul li {
+    margin: 40px 15px; }
+  .arrows-slider {
+    top: 52.1%; } }
+
+@media only screen and (max-width: 450px) {
+  .all-reviews {
+    padding: 0; }
+  .mobile-ver-sl .top-sl-mobile .banner li p {
+    font-size: 4.5vw; }
+  .forma-for-dicsount .red-line-k ul li p {
+    font-size: 5vw; } }
+
+@media only screen and (max-width: 420px) {
+  .arrows-slider {
+    top: 51.9%; }
+  .buy-items-slide {
+    padding: 0; }
+  .next-brends ul li {
+    margin: 15px 0; }
+    .next-brends ul li:nth-child(4n) {
+      margin: 15px 0; }
+    .next-brends ul li:nth-child(4n+1) {
+      margin: 15px 0; } }
+
+@media only screen and (max-width: 380px) {
+  .mCSB_scrollTools {
+    right: 15px; }
+  .forma-for-dicsount {
+    padding: 15px 0px; }
+  .all-reviews ul li .otz-text {
+    padding: 5px;
+    max-width: 320px; }
+    .all-reviews ul li .otz-text p {
+      padding-right: 50px; }
+    .all-reviews ul li .otz-text .mCSB_inside > .mCSB_container {
+      margin-right: 0;
+      left: 0 !important; }
+  .all-reviews ul li .foto-client {
+    width: 320px; } }
+
+@media only screen and (max-width: 350px) {
+  .forma-x input {
+    margin: 15px 0; }
+  .forma-x button {
+    margin: 15px 0; }
+  .all-reviews ul li {
+    margin: 30px 0; }
+    .all-reviews ul li:nth-child(2n) {
+      margin: 30px 0; }
+    .all-reviews ul li:nth-child(2n+1) {
+      margin: 30px 0; } }
+
+@media only screen and (max-width: 340px) {
+  .mCSB_scrollTools {
+    right: 25px; } }
+
+@media only screen and (max-width: 320px) {
+  .mCSB_scrollTools {
+    right: 35px; } }
 
 /* ============================ form css =========================== */
 #modal_callback_ok h3, #modal_callback_ok h4 {

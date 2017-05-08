@@ -518,8 +518,9 @@ body textarea:required:valid{
     width: 50%;
     float: left;
     img{
-      max-height: 479px;
+      max-height: 480px;
       width: 100%;
+      min-height: 480px;
     }
   }
   .red-line-k{
@@ -787,6 +788,17 @@ footer{
     }
   }
 }
+
+
+
+.mobile-ver-sl{
+  display: none;
+}
+
+.belt{
+  display: none;
+}
+
 
 //ALWAYS END
 @import "media.scss";
