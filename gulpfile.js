@@ -47,6 +47,7 @@ gulp.task('scripts', function() {
 		'./app/libs/plugins-scroll/plugins-scroll.js',
 		'./app/libs/lightslider/dist/js/lightslider.min.js',
 		'./app/libs/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js',
+		'./app/libs/magnific-popup/dist/jquery.magnific-popup.min.js',
 		])
 		.pipe(concat('libs.js'))
 		//.pipe(uglify()) //Minify libs.js

@@ -1,5 +1,6 @@
 @import url(../libs/lightslider/dist/css/lightslider.min.css);
 @import url(../libs/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css);
+@import url(../libs/magnific-popup/dist/magnific-popup.css);
 body {
   font-size: 16px;
   min-width: 320px;
