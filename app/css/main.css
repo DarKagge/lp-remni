@@ -948,6 +948,10 @@ ul li:nth-child(4n+1) {
   .service ul li {
     padding: 0 40px; } }
 
+@media only screen and (max-width: 1117px) {
+  .conditions ul li p {
+    width: 88%; } }
+
 @media only screen and (max-width: 1110px) {
   header .head-menu {
     margin-left: -55px; }
@@ -1025,7 +1029,27 @@ ul li:nth-child(4n+1) {
       display: block;
       float: none; }
       footer .call-back a {
-        text-align: center; } }
+        text-align: center; }
+  .cart {
+    padding: 25px;
+    text-align: center; }
+    .cart h2 {
+      text-align: center; }
+  .left-tov-slid {
+    width: 100%;
+    float: none; }
+  .right-characteristic {
+    width: 100%;
+    margin-top: 25px;
+    float: none;
+    padding: 0; }
+  .char-r {
+    text-align: left;
+    display: inline-block; }
+  .conditions ul li p {
+    text-align: left; }
+  .conditions ul li .img-cond {
+    width: 5%; } }
 
 @media only screen and (max-width: 945px) {
   .forma-for-dicsount .red-line-k ul li {
@@ -1159,13 +1183,21 @@ ul li:nth-child(4n+1) {
     float: none;
     text-align: center; }
   footer .belt img {
-    width: 100%; } }
+    width: 100%; }
+  .left-tov-slid .lSGallery li {
+    height: auto; } }
 
 @media only screen and (max-width: 470px) {
   .all-items-for ul li {
     margin: 40px 15px; }
   .arrows-slider {
-    top: 52.1%; } }
+    top: 52.1%; }
+  .conditions ul li .img-cond {
+    width: 100%;
+    text-align: center; }
+  .conditions ul li p {
+    width: 100%;
+    text-align: center; } }
 
 @media only screen and (max-width: 450px) {
   .all-reviews {
@@ -1186,6 +1218,14 @@ ul li:nth-child(4n+1) {
       margin: 15px 0; }
     .next-brends ul li:nth-child(4n+1) {
       margin: 15px 0; } }
+
+@media only screen and (max-width: 394px) {
+  .left-cha {
+    width: 150px; }
+    .left-cha p {
+      font-size: 15px; }
+  .cart {
+    padding: 15px 5px; } }
 
 @media only screen and (max-width: 380px) {
   .mCSB_scrollTools {
@@ -1217,7 +1257,11 @@ ul li:nth-child(4n+1) {
 
 @media only screen and (max-width: 340px) {
   .mCSB_scrollTools {
-    right: 25px; } }
+    right: 25px; }
+  .cart .availability * {
+    float: none !important;
+    display: inline-block;
+    text-align: center; } }
 
 @media only screen and (max-width: 320px) {
   .mCSB_scrollTools {
